@@ -268,3 +268,53 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
+31. ### Explain the difference between `GET` and `POST` methods in form submission.
+    `GET` : Sends form data as part of the URL. Suitable for small amounts of data and retrieving data from the server.
+    `POST`: Sends form data within the body of the HTTP request. Suitable for larger amounts of data and modifying server-side data.
+
+32. ### How do you create a table in HTML? Provide an example. 
+    Use the `<table>` element with nested` <tr>` (table row), `<th>` (table header), and `<td>` (table data) elements to create rows and columns.
+
+    ```html
+    <table>
+     <tr>
+       <th>Heading 1</th>
+       <th>Heading 2</th>
+     </tr>
+     <tr>
+       <td>Data 1</td>
+       <td>Data 2</td>
+     </tr>
+    </table>
+    ```
+
+33. ### Explain the difference between the `title` attribute and the `<title>` tag in HTML.
+    `title` : attribute: Used in elements like `<a>`, `<img>`, etc., to provide additional information (usually displayed as tooltips).
+    `<title>` : tag: Used in the `<head>` section to define the title of the HTML document, displayed on the browser's title bar or tab.
+
+34. ### Explain the purpose of the `<canvas>` tag in HTML
+    `canvas`  is used to draw graphics, animations, and other visual content dynamically using JavaScript. It provides a drawing space on the webpage.
+
+35. ### What is the purpose of the `<blockquote>` tag?
+    `<blockquote>` is used to indicate a section of quoted content from another source. It's typically styled to stand out from the rest of the text.
+
+36. ### How can you create a numbered list in HTML?
+    Use the `<ol>` (ordered list) element with `<li>` (list item) elements for each item in the list.
+    ```html
+    <ol>
+       <li> First Item</li> 
+       <li> Second  Item</li> 
+       <li> Third Item</li> 
+    </ol>    
+    ```
+37. ### What are void elements in HTML?
+    Void elements in HTML are tags that do not require a closing tag. They are used to insert images, line breaks, and other content that does not require additional information.
+
+38. ### What are HTML Entities?
+    HTML Entities are special characters used to represent characters that cannot be typed on a keyboard. They are often used to display special symbols and foreign characters.
+
+39. ### How do you insert a copyright symbol in HTML?
+    You can insert a copyright symbol by using &copy; or &#169; in an HTML file.
+
+40. ### What is the advantage of collapsing white space?
+    Collapsing white space in HTML can help to reduce the size of web pages and make them load faster. It involves removing unnecessary white space between HTML elements.
