@@ -15,9 +15,9 @@
 |1  | [What is HTML?](#what-is-html)|
 |2  | [What is Tag?](#what-is-tag) | 
 |3  | [What is the difference between HTML elements and HTML tags?](#what-is-the-difference-between-html-elements-and-html-tags)|
-|4  | [ How many types of heading does an HTML contain?](#how-many-types-of-heading-does-an-html-contain)|
-|5  | [Explain the difference between div and span tags.](#Explain-the-differance-between-div-and-span-tags)|
-|6  | [List on inline element & block element](#List-on-inline-element-and-block-element)|
+|4  | [How many types of heading does an HTML contain?](#how-many-types-of-heading-does-an-html-contain)|
+|5  | [Explain the difference between div and span tags](#explain-the-difference-between-div-and-span-tags)|
+|6  | [List on inline element and block element](#list-on-inline-element-and-block-element)|
 |7  | [How to create a hyperlink in HTML?](#How-to-create-a-hyperlink-in-HTML?)|
 |8  | [What is semantic Html](#What-is-semantic-Html)|
 |9  | [What is the purpose of the alt attribute in an img tag?](#What-is-the-purpose-of-the-alt-attribute-in-an-img-tag?)|
@@ -41,7 +41,7 @@
 |27 | [What is the purpose of the `defer` and `async` attributes in `<script>` tags?](#What-is-the-purpose-of-the-`defer`-and-`async`-attributes-in-`<script>`-tags?)|
 |28 | [Explain the difference between the `src` and `href` attributes.](#Explain-the-difference-between-the-`src`-and-`href`-attributes.)|
 |29 | [How can you make an image a clickable link in HTML?](#How-can-you-make-an-image-a-clickable-link-in-HTML?)|
-|30 | [ What is an image map?](#What-is-an-image-map?)|
+|30 | [What is an image map?](#what-is-an-image-map)|
 |31 | []()|
 |32 | []()|
 |33 | []()|
@@ -68,7 +68,7 @@
 3. ### What is the difference between HTML elements and HTML tags?
    HTML elements are made up of opening and closing tages along with content. Tags mark the beginning and end of an element  and are used to define the structure of the content.
       
-4. ###  How many types of heading does an HTML contain?
+4. ### How many types of heading does an HTML contain?
    The HTML contains six types of headings which are defind with the `<h1>` to `<h6>` tags. 
    `<h1>` is the largest heading tag and `<h6>` is the smallest one
     Example :- 
@@ -79,35 +79,35 @@
      <h5>Heading no. 5</h5>    
      <h6>Heading no. 6</h6> 
 
-5. ###  Explain the difference between div and span tags.
-   . `<div>`: it's a block-level element used to group HTML elements together. It typically creates a block on the webpage.
-   . `<span>`: it's an inline element used for styling purpose or grouping inline elements together without changing the struture of the documents.
+5. ### Explain the difference between div and span tags.
+   `<div>`: it's a block-level element used to group HTML elements together. It typically creates a block on the webpage.
+   `<span>`: it's an inline element used for styling purpose or grouping inline elements together without changing the struture of the documents.
 
 
-6. ###  List on inline element & block element 
+6. ###  List on inline element and block element 
    Block-level Elements:
-         These elements typically start on a new line and occupy the full width available to them, pushing subsequent content ontp the next line.
-         Some common block-level elements include:
-      1. `<div>`: Generic container used to group elements.
-      2. `<p>`: Represents a paragraph of text.
-      3. `<h1>` to `<h6>`: Headings of varying sizes.
-      4. `<ul>`: Unorderd list.
-      5. `<ol>`: Orderd list.
-      6. `<li>`: List item within a list.
-      7. `<table>`: Defines a table.
-      8. `<form>`: Define an HTML form.
-      9. `<header>`, `<footer>`, `<nav>`, `<section>`, `<article>` :-  HTML5  semantic elements used for structural organization.
+   These elements typically start on a new line and occupy the full width available to them, pushing subsequent content ontp the next line.
+   Some common block-level elements include:
+   1. `<div>`: Generic container used to group elements.
+   2. `<p>`: Represents a paragraph of text.
+   3. `<h1>` to `<h6>`: Headings of varying sizes.
+   4. `<ul>`: Unorderd list.
+   5. `<ol>`: Orderd list.
+   6. `<li>`: List item within a list.
+   7. `<table>`: Defines a table.
+   8. `<form>`: Define an HTML form.
+   9. `<header>`, `<footer>`, `<nav>`, `<section>`, `<article>` :-  HTML5  semantic elements used for structural organization.
 
    Inline Elements:
-        These elements do not start on a new line and only take up as much width as necessary.They don't force a new line to begin after them.
-        Some common inline elements include: 
-      1.  `<span>`:  Generic inline container.
-      2.  `<a>` : Create hyperlinks.
-      3.  `<strong>` and `<em>` :  Used for text formatting (bold and italic respectivly)
-      4.  `<img>`: Embeds images.
-      5. `<input>` : cREATES FORM INPUT FIELDS.
-      6. `<br>` : Line break.
-      7. `<i>`, `<u>`, `<b>` :used for italic, underline, and bold formatting 
+   These elements do not start on a new line and only take up as much width as necessary.They don't force a new line to begin after them.
+   Some common inline elements include: 
+   1.  `<span>`:  Generic inline container.
+   2.  `<a>` : Create hyperlinks.
+   3.  `<strong>` and `<em>` :  Used for text formatting (bold and italic respectivly)
+   4.  `<img>`: Embeds images.
+   5. `<input>` : cREATES FORM INPUT FIELDS.
+   6. `<br>` : Line break.
+   7. `<i>`, `<u>`, `<b>` :used for italic, underline, and bold formatting 
 
 
 
@@ -168,7 +168,7 @@
 18. ### What's the purpose of the `autocomplete` attribute in HTML forms?
     The `autocomplete` attributes control whether a from field should have autocompplete enabled or disabled for user input.
 
-19. ### How can you embed an audio file in HTML?
+19. ###  How can you embed an audio file in HTML?
     Use the `<audio>` element, spacifying the audio source using the `src` attribute. Similar to the `<video>` tag, you can use multiple `<source>` elements within `<audio>`
     for different audio formats.
     
@@ -206,6 +206,6 @@
 29. ### How can you make an image a clickable link in HTML?
     Wrap the `<img>` tag within an `<a>` tag and specify the destination using the href attribute in the `<a>` tag.
 
-30. ### What is an image map?
+30. ###  What is an image map?
     Image map facilitates you to link many different web pages using a single image.
     It is represented by `<map>` tag. 
