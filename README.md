@@ -42,12 +42,51 @@
 |28 | [Explain the difference between the `src` and `href` attributes.](#explain-the-difference-between-the-src-and-href-attributes)|
 |29 | [How can you make an image a clickable link in HTML?](#how-can-you-make-an-image-a-clickable-link-in-html)|
 |30 | [What is an image map?](#what-is-an-image-map)|
-|31 | []()|
-|32 | []()|
-|33 | []()|
-|34 | []()|
-|35 | []()|
+|31 | [Explain the difference between `GET` and `POST` methods in form submission.](#explain-the-difference-between-get-and-post-methods-in-form-submission)|
+|32 | [How do you create a table in HTML? Provide an example](#how-do-you-create-a-table-in-html-provide-an-example)|
+|33 | [Explain the difference between the `title` attribute and the `<title>` tag in HTML.](#explain-the-difference-between-the-title-attribute-and-the-title-tag-in-html)|
+|34 | [Explain the purpose of the `<canvas>` tag in HTML](#explain-the-purpose-of-the-canvas-tag-in-html)|
+|35 | [What is the purpose of the `<blockquote>` tag?](#what-is-the-purpose-of-the-blockquote-tag)|
+|36 |[How can you create a numbered list in HTML?](#how-can-you-create-a-numbered-list-in-html)|
+|37 |[What are void elements in HTML?](#what-are-void-elements-in-html)|
+|38 |[What are HTML Entities?](#what-are-html-entities)|
+|39 |[How do you insert a copyright symbol in HTML?](#how-do-you-insert-a-copyright-symbol-in-html)|
+|40 |[What is the advantage of collapsing white space?](#what-is-the-advantage-of-collapsing-white-space)|
 
+
+
+
+# Advanced HTML Interview Questions and Answers
+
+###  Advance Table of Contents
+
+| No.| Questions |
+|----| --------- |
+| 1  | [What is the difference between HTML and XHTML?](#what-is-the-difference-between-html-and-xhtml)|
+| 2  |[What is the difference between HTML and HTML5?](#what-is-the-difference-between-html-and-html5)|
+| 3  |[What is the purpose of the `contenteditable` attribute in HTML?](#what-is-the-purpose-of-the-contenteditable-attribute-in-html)|
+| 4  |[Explain the difference between the `<strong>` tag and the CSS `font-weight` property.](#explain-the-difference-between-the-strong-tag-and-the-css-font-weight-property)|
+| 5  |[How do you create a responsive image in HTML?](#how-do-you-create-a-responsive-image-in-html)|
+| 6  |[Explain the use of the `picture` element in HTML for responsive images.](#explain-the-use-of-the-picture-element-in-html-for-responsive-images)|
+| 7  |[How can you create an HTML form with file upload capability?](#how-can-you-create-an-html-form-with-file-upload-capability)|
+| 8  |[Explain the purpose of the `sandbox` attribute in the `<iframe>` tag.](#explain-the-purpose-of-the-sandbox-attribute-in-the-iframe-tag)|
+| 9  |[How do you create a progress bar in HTML?](#how-do-you-create-a-progress-bar-in-html)|
+| 10 |[Explain the use of the `content` attribute in the` <meta>` tag.](#explain-the-use-of-the-content-attribute-in-the-meta-tag)|
+| 11 |[How can you embed a video with subtitles or closed captions in HTML5?](#how-can-you-embed-a-video-with-subtitles-or-closed-captions-in-html5)|
+| 12 |[How can you implement lazy loading for images in HTML?](#how-can-you-implement-lazy-loading-for-images-in-html)|
+| 13 |[Explain the purpose of the `role` attribute in HTML and its importance in accessibility.](#explain-the-purpose-of-the-role-attribute-in-html-and-its-importance-in-accessibility)|
+| 14 |[Explain the purpose of the `<wbr>` tag in HTML.](#explain-the-purpose-of-the-wbr-tag-in-html)|
+| 15 |[Explain the purpose of the `download` attribute in `<a>` tags.](#explain-the-purpose-of-the-download-attribute-in-a-tags)|
+| 16 |[Explain the purpose of the `<meter>` tag in HTML and how it's used.](#explain-the-purpose-of-the-meter-tag-in-html-and-how-its-used)|
+| 17 |[How do you create a tooltip in HTML?](#how-do-you-create-a-tooltip-in-html)|
+| 18 |[Explain the difference between HTML entities and HTML character codes.](#explain-the-difference-between-html-entities-and-html-character-codes)|
+| 19 |[What is the difference between an absolute and relative URL?](#what-is-the-difference-between-an-absolute-and-relative-url)|
+| 20 |[In how many ways can you display HTML elements?](#in-how-many-ways-can-you-display-html-elements)|
+| 21 |[In how many ways can we specify the CSS styles for the HTML element?](#in-how-many-ways-can-we-specify-the-css-styles-for-the-html-element)|
+| 22 |[When to use scripts in the `head` and when to use scripts in the `body`?](#when-to-use-scripts-in-the-head-and-when-to-use-scripts-in-the-body)|
+| 23 |[What is the difference between link tag `<link>` and anchor tag `<a>`?](#what-is-the-difference-between-link-tag-link-and-anchor-tag-a)|
+| 24 |[What is `meta` tag in HTML ?](#what-is-meta-tag-in-html)|
+| 25 |[What is DOCTYPE in HTML?](#what-is-doctype-in-html)|
 
 
 
@@ -272,6 +311,8 @@
     `GET` : Sends form data as part of the URL. Suitable for small amounts of data and retrieving data from the server.
     `POST`: Sends form data within the body of the HTTP request. Suitable for larger amounts of data and modifying server-side data.
 
+**[⬆ Back to Top](#table-of-contents)**
+
 32. ### How do you create a table in HTML? Provide an example. 
     Use the `<table>` element with nested` <tr>` (table row), `<th>` (table header), and `<td>` (table data) elements to create rows and columns.
 
@@ -288,15 +329,23 @@
     </table>
     ```
 
+**[⬆ Back to Top](#table-of-contents)**
+
 33. ### Explain the difference between the `title` attribute and the `<title>` tag in HTML.
     `title` : attribute: Used in elements like `<a>`, `<img>`, etc., to provide additional information (usually displayed as tooltips).
     `<title>` : tag: Used in the `<head>` section to define the title of the HTML document, displayed on the browser's title bar or tab.
 
+**[⬆ Back to Top](#table-of-contents)**
+
 34. ### Explain the purpose of the `<canvas>` tag in HTML
     `canvas`  is used to draw graphics, animations, and other visual content dynamically using JavaScript. It provides a drawing space on the webpage.
 
+**[⬆ Back to Top](#table-of-contents)**
+
 35. ### What is the purpose of the `<blockquote>` tag?
     `<blockquote>` is used to indicate a section of quoted content from another source. It's typically styled to stand out from the rest of the text.
+
+**[⬆ Back to Top](#table-of-contents)**
 
 36. ### How can you create a numbered list in HTML?
     Use the `<ol>` (ordered list) element with `<li>` (list item) elements for each item in the list.
@@ -307,14 +356,202 @@
        <li> Third Item</li> 
     </ol>    
     ```
+
+**[⬆ Back to Top](#table-of-contents)**
+
 37. ### What are void elements in HTML?
     Void elements in HTML are tags that do not require a closing tag. They are used to insert images, line breaks, and other content that does not require additional information.
+
+**[⬆ Back to Top](#table-of-contents)**
 
 38. ### What are HTML Entities?
     HTML Entities are special characters used to represent characters that cannot be typed on a keyboard. They are often used to display special symbols and foreign characters.
 
+**[⬆ Back to Top](#table-of-contents)**
+
 39. ### How do you insert a copyright symbol in HTML?
     You can insert a copyright symbol by using &copy; or &#169; in an HTML file.
 
+**[⬆ Back to Top](#table-of-contents)**
+
 40. ### What is the advantage of collapsing white space?
     Collapsing white space in HTML can help to reduce the size of web pages and make them load faster. It involves removing unnecessary white space between HTML elements.
+
+
+
+
+
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+1. ### What is the difference between HTML and XHTML?
+   HTML and XHTML are both markup languages used to create web pages. However, XHTML is stricter than HTML and requires developers to write well-formed code that adheres to specific rules and guidelines. XHTML also requires all tags to be closed and all attributes to be quoted.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+2. ### What is the difference between HTML and HTML5?
+   HTML5 is the latest version of HTML and includes new features and improvements over previous versions. Some key differences between HTML and HTML5 include support for multimedia elements (such as video and audio), improved semantics, and better support for mobile devices.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+3. ### What is the purpose of the `contenteditable` attribute in HTML?
+   The `contenteditable` attribute allows users to edit the content within an HTML element, turning it into an interactive editing area.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+4. ### Explain the difference between the `<strong>` tag and the CSS `font-weight` property.
+   `<strong>` :  Semantic HTML tag used to indicate strong importance or emphasis.
+   `font-weight` : CSS property used to control the boldness of text, allowing different levels of boldness (e.g., `normal`, `bold`, `lighter`, `bolder`, etc.).
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+5. ### How do you create a responsive image in HTML?
+   Use the ``<img>`` tag with the srcset attribute to provide multiple image sources and sizes based on different device resolutions.
+   ```html
+   <img src='sample.jpg',srcset='sample-2x.jpg 2x ,sample-3x.jpg 3x' alt='image'>
+   ```
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+6. ### Explain the use of the `picture` element in HTML for responsive images.
+   `<picture>` allows specifying multiple sources for an image based on factors like screen size, resolution, or format. It provides more control over which image is displayed in different scenarios.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+7. ### How can you create an HTML form with file upload capability?
+   Use the` <input>` element with `type="file"` within a form to allow users to select and upload
+    ```html
+    <form action="/upload", method="post" enctype="multipart/form-data">
+        <input type="file" name="fileupload">
+        <input type="submit" value="upload">
+    </form>    
+    ```
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+8. ### Explain the purpose of the `sandbox` attribute in the `<iframe>` tag.
+   The `sandbox` attribute provides a set of extra restrictions for the content within the `<iframe>`, enhancing security by limiting its behavior, such as restricting form submissions or script execution.
+
+###  **[⬆ Back to Top](#advance-table-of-contents)**
+
+9. ### How do you create a progress bar in HTML?
+   Use the `<progress>` element to create a progress bar with the value and max attributes to indicate the progress level.
+   ```html
+   <progress value="50" max="100"></progress>
+   ```
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+10. ### Explain the use of the `content` attribute in the` <meta>` tag.
+    The `mainfest` attritube in the `<html>` tag specifies the URL of the application's cache mainifest file, enabling the application to work offline and providing a list of resources to be cached for offline use.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+11. ### How can you embed a video with subtitles or closed captions in HTML5?
+    Use the `<track>` element within the `<video>` tag to specify the subtitles or captions file.
+    ```html
+    <video>
+        <source src="video.mp4" type="video/mp4">
+        <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+    </video>
+
+    ```
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+12. ### How can you implement lazy loading for images in HTML?
+    Use the `loading="lazy"` attribute within the `<img>` tag to implements lazy loading, which defers the loading of offscreen images until the user scroll near them
+
+    ```html
+    <img src="image.jpg" loading="lazy" alt="Lazy-loaded Image">
+    ```
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+13. ### Explain the purpose of the `role` attribute in HTML and its importance in accessibility.
+    The `role` attribute defines the role or purpose of an element for accessiblity purpose, providing addittional information to assistive
+    technologies about the function of the element.
+    ```html
+    <div role="button" tabindex="0"> Clickable Div  </div>
+    ```
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+14. ### Explain the purpose of the `<wbr>` tag in HTML.
+    `<wbr>` (Word Break Opportunity) is used to suggest a line break opporunity within a qord where the browser can break the word if necessary without alternating its meaning.
+
+    ```html
+    <p> This is Paragraph <wbr>SplitByWBR</p>
+    ```
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+15. ### Explain the purpose of the `download` attribute in `<a>` tags.
+    The `download` attribute prompts the browser to download the linked resource instead of navigating to it. it specifies the filename to use when saving the resource.
+
+    ```html
+    <a href="file.pdf" download="filename.pdf"> Download Pdf </a>
+    ```
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+16. ### Explain the purpose of the `<meter>` tag in HTML and how it's used.
+    `<meter>` is used to represent scaler measurements within a known range. It's used to create gauges or meters displaying the measurement within the define range.
+
+    ```html
+    <meter value="75" min="0" max="100">75% </meter>
+    ```
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+17. ### How do you create a tooltip in HTML?
+    Use the title attribute in elements like `<a>`, `<abbr>`, `<img>`, etc., to create tooltips that display text when the user hovers over the element.
+
+    ```html
+    <a href="#" title="This is a tooltip">Hover here</a>
+    ```
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+18. ### Explain the difference between HTML entities and HTML character codes.
+    HTML entities: Special characters represented by their entity names or numbers (e.g., `&lt`; for `<`, `&amp`; for `&`).
+    HTML character codes: Numeric codes representing characters in the character set (e.g., &#60; for <, &#38; for &).
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+19. ### What is the difference between an absolute and relative URL?
+    An absolute URL includes the full web address, the protocol (such as http or https) and the domain name (such as www.example.com). A relative URL, on the other hand, specifies the location of a resource relative to the current web page. For example, a relative URL might include the file path (such as /images/picture.jpg) or the relative path (such as ../images/picture.jpg).
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+20. ### In how many ways can you display HTML elements?
+    HTML elements can be displayed in several ways, including block, inline, inline-block, and none. The display property can specify how an element should be displayed.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+21. ### In how many ways can we specify the CSS styles for the HTML element?
+    CSS styles can be specified in several ways, including inline, internal, and external stylesheets. Inline styles are applied directly to the HTML element using the style attribute. Internal styles are defined within the
+     `<head>` section of the HTML document using the `<style>` tag. External stylesheets are defined in a separate CSS file and linked to the HTML document using the `<link>` tag.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+22. ### When to use scripts in the `head` and when to use scripts in the `body`?
+    Scripts can be placed in the `<head>` section of the HTML document or in the` <body>` section. Scripts that must be executed before the page is displayed, such as scripts that define variables or functions, should be placed in the `<head>` section. Scripts that must be executed after the page is displayed, such as scripts that manipulate the DOM, should be placed in the `<body>` section.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+23. ### What is the difference between link tag `<link>` and anchor tag `<a>`?
+    The `<link>` tag links external resources, such as CSS stylesheets, to an HTML document.
+    The `<a>` tag creates links to other pages or resources within the same document.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+24. ### What is `meta` tag in HTML ? 
+    The `<meta>` tag in HTML is used to provide metadata about the HTML document. It's placed within the `<head>` section of the document and contains information like character encoding (charset), page description, keywords, authorship details, viewport settings for responsive design, and other such data.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
+
+25. ### What is DOCTYPE in HTML?
+    The DOCTYPE declaration (Document Type Declaration) in HTML is used to inform web browsers about the type and version of the HTML used in the document. It's not an HTML tag; instead, it comes before the opening `<html>` tag at the beginning of an HTML document. It helps browsers to render the content in the correct mode, ensuring proper interpretation and rendering of the HTML code.
+
+ **[⬆ Back to Top](#advance-table-of-contents)**
