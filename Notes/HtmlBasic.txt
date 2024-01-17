@@ -15,3 +15,5 @@ Html Text formatting Tag
         2. paragraphs
               Ex:-  <p> Hello Team </p> 
              
+       3. bold 
+             Ex:- <b> Bold Text</b>
