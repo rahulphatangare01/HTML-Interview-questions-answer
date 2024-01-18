@@ -17,3 +17,5 @@ Html Text formatting Tag
              
        3. bold 
              Ex:- <b> Bold Text</b>
+       4. bold 
+             Ex:- <i> Bold Text</i>
