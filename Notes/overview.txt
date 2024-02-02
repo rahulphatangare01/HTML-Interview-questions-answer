@@ -1,0 +1,18 @@
+HTML 
+        HTML stands for HyperText Markup Language. It is the standard markup language used to create and design documents on the World Wide Web. 
+        HTML is the backbone of web development, providing the basic structure for web pages.
+        It uses a system of tags and attributes to define the various elements within a document, such as headings, paragraphs, links, images, and more.
+
+ What is HyperText?
+        Hypertext is a concept that refers to text that contains links (hyperlinks) to other text. It is a way of organizing and navigating information in a non-linear fashion. In a hypertext document, users can click on hyperlinks to jump to related content or different sections within the document. 
+        hyperlinks enable users to navigate between web pages, making it easy to access information in a non-sequential manner.
+
+ What is markup Language 
+        A markup language is a system for annotating text to indicate the structure, formatting, or presentation of information.
+        It consists of tags or codes embedded within the text, and these tags define how the text should be displayed or interpreted. Markup languages are used in various contexts, but they are commonly associated with web development, document formatting, and data interchange.
+        The term "markup" refers to the practice of marking up a document with these special annotations or tags. 
+
+        Other examples of markup languages include XML (eXtensible Markup Language), used for data representation and exchange, and LaTeX, used for document preparation in academic and scientific fields. The tags and rules for markup languages vary depending on their specific purposes and standards.
+
+
+
